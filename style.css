@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F4FC;
+    margin-top: 90px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#nav{
+    display:flex;
+    
+    align-items: center;
+    height: 30px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+
+.nav-bar-ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 220px;
+}
+#nav li:first-child{
+    color: #072AC8;
+}
+
+#nav div a{
+    background-color: #072AC8;
+    color:white;
+    list-style: none;
+    padding:12px 30px;
+    text-decoration: none;
+}
+#header{
+    margin-bottom: 150px;
+}
+#header article h1{
+    font-size: 80px;
+}
+#header article p{
+    font-size: 26px;
+}
+
+
+.button{
+     background-color: #072AC8;
+    color:white;
+    list-style: none;
+    padding:12px 30px;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+.touch{
+    text-decoration: none;
+    color:#6B708D;
+}
+#header article div{
+    margin-top: 60px;
+}
+
+
+.container-hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.container-img{
+    position:relative;
+    width:700px;
+    height: 750px;
+
+}
+
+.img1{
+    height: 325px;
+    position: absolute;
+    z-index: 1;
+}
+.img2{
+    height: 750px;
+    position: absolute;
+    
+}
+.img3{
+    z-index: 1;
+    height: 290px;
+    position: absolute;
+    bottom: 0; /*esto indica lo que se separa del bottom*/
+    left: 500px; /*esto indica lo que se separa de la izquierda*/
+}
+
+
+#client{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 200px;
+    
+}
+/* utilizo comando filter para cambiar a escala de grises  las imagenes */
+#client img{    
+    -webkit-filter: grayscale(1); 
+    filter: gray; 
+    filter: grayscale(1); 
+}
+
+
+/* SECCION PROYECTOS */
+#projects h2{
+    font-size: 50px;
+}
+
+#projects div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tarjeta{
+    background-color: white;
+    height: 450px;
+    display: flex; 
+    flex-direction: column;
+}
+
+
+.tarjeta img{
+    height: 300px;
+    width: 420px;
+}
+
+.link-project{
+    text-decoration: none;
+    color:#072AC8;
+    margin-left: 30px;
+}
+
+
+
+/* SECTION 3 TESTIMONIAL */
+
+#testimonial {
+    margin-top: 100px;
+    background-color: #292e47;
+    background-image: url("Información de Proyecto/testimonial-section/orbit.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.test{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text1{
+    color:white;
+    font-size: 40px;
+}
+.quote{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.text2{
+    color:#FFC600;  
+    font-size:20px
+}
+.img-face{
+    height: 150px;
+    
+}
+.img-face-circ{
+    border-radius: 50%;
+    height: 100px;
+}
+
+.test div{
+    display: flex;
+}
+.test div div {
+    display: flex;
+    flex-direction: column;
+}
+
+.test div div h4{
+    color:#A2D6F9;
+}
+
+.test div div h5{
+    color:white;
+}
+
+/* SECTION 4 SERVICES */
+#services{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+#services div{
+    display: flex;
+    justify-content: space-around;
+}
+#services article{
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+#services article h2{
+    font-size: 20px;
+}
+
+#services h1{
+    font-size: 50px;
+}
+.img-services{
+    padding:20px 20px 20px 20px;
+    margin-top: 40px;
+    margin-left:40px;
+    height: 50px;
+    width: 50px;
+    background-color: #ECF7FF;
+    border-radius: 50%;
+}
+
+#services article h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.link-btn{
+    
+    text-decoration: none;
+    
+}
+
+
+/* SECTION 5 CTA */
+#cta{
+    background-color:#FDC600 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 90px;
+    margin-bottom: 170px;
+    margin-top: 170px;
+}
+#cta h1{
+    font-size:40px
+}
+
+.placeholder{
+    padding: 20px 90px 20px 20px;
+}
+
+.button-subscribe{
+    margin-top: 30px;
+    background-color: #072AC8;
+    color:white;
+    list-style: none;
+    padding:22px 40px 22px 40px;
+    text-decoration: none;
+    margin-left: 10px;
+    border:none;
+}
+
+
+/* FOOTER */
+
+#footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+#footer img{
+    margin-bottom: 20px;
+    height: 35px;
+}
+#footer address{
+    font-style:normal;
+    color:#6B708D
+}
+.space a{
+    padding:50px;
+    text-decoration: none;
+}
+
+.space{
+    padding: 20px;
+}
