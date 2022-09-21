@@ -113,6 +113,7 @@ body {
 /* SECCION PROYECTOS */
 #projects h2{
     font-size: 50px;
+    margin-top: 150px;
 }
 
 #projects div{
@@ -122,9 +123,22 @@ body {
 }
 .tarjeta{
     background-color: white;
-    height: 450px;
+    height: 510px;
     display: flex; 
     flex-direction: column;
+}
+
+.text-tarjeta{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+.text-tarjeta2{
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 0px;
+    color:#6B708D
 }
 
 
@@ -137,6 +151,7 @@ body {
     text-decoration: none;
     color:#072AC8;
     margin-left: 30px;
+    padding-top: 40px;
 }
 
 
@@ -254,7 +269,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
     padding-top: 90px;
     margin-bottom: 170px;
     margin-top: 170px;
@@ -302,4 +317,31 @@ body {
 
 .space{
     padding: 20px;
+}
+
+
+
+/* ESTILOS PROJECT PAGE */
+
+.style-h1{
+    font-size: 70px;
+}
+
+#simplify{
+    margin-top: 160px;
+}
+
+#simplify div div{
+    display:flex;
+    justify-content: space-between;
+}
+
+#simplify div img{
+    height: 976px;
+    width: 1410px;
+}
+
+.text{
+    color:#6B708D;
+    font-size:15px;
 }
