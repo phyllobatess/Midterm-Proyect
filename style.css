@@ -7,7 +7,7 @@ body {
   margin-right: 250px;
 }
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   header div {
     flex-direction: column;
     flex-wrap: wrap;
@@ -15,7 +15,9 @@ body {
   #services div {
     flex-direction: column;
   }
-} */
+
+ 
+}
 
 #nav {
   display: flex;
@@ -130,7 +132,7 @@ nav span a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: ;
+  width:100% ;
 }
 .tarjeta {
   width: 32%;
