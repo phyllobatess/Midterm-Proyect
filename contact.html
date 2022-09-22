@@ -4,48 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Contact</title>
 </head>
 <body>
         <!-- NAV SECTION -->
-    <nav id="nav">
+ <nav id="nav">
       <div>
-        <img src="./Información de Proyecto/logos/circle.svg" alt="Circle logo">
+      <a href="index.html">  <img src="./Información de Proyecto/logos/circle.svg" alt="Circle logo"></a>
       </div>
       <div>
         <ul class="nav-bar-ul">
-          <li>Home</li>
-          <li>Projects</li>
-          <li>Services</li>
+          <li><a class="text-li" href="#">Home</a></li>
+          <li><a class="text-li1"href="#">Projects</a></li>
+          <li><a class="text-li1" href="#">Services</a></li>
         </ul>
       </div>
-      <div >
+      <span >
         <a href="#">Contact Us</a>
-      </div>
+      </span>
+
     </nav>
-
-
     <!-- FORM CONTACT -->
 
 <h1 class="text-contact">Contact us</h1>
-<form action="/some-url" method="post">
-  <label for="name">Full Name*</label><br>
-  <input type="text" class="placeholder1" placeholder="Enter your full name"><br>
+<form id="my-form" action="/some-url" method="post">
+  <label  for="name">Full Name*</label><br>
+  <input id="name" type="text" class="placeholder1" placeholder="Enter your full name"><br>
 
   <div class="flex">
-    <div>
-  <label for="email">Email</label><br>
-  <input type="email" class="email1" placeholder="Enter your email"><br>
+    <div >
+  <label  for="email">Email</label><br>
+  <input id="email" type="email" class="email1" placeholder="Enter your email"><br>
   </div>
   <div>
-  <label for="phone">Phone</label>
-  <input type="number" class="email1" placeholder="Enter your Phone">
+  <label for="telephone">Phone</label>
+  <input id="phone"  type="number" class="email1" placeholder="Enter your Phone">
   </div>
   </div>
   <br>
-  <label for="textarea">Message*</label><br>
-  <textarea class="textarea" id="comment" name="comment" rows="15" cols="174"  ></textarea>
+  <label  for="textarea">Message*</label><br>
+  <textarea id="message" class="textarea" id="comment" name="comment" rows="15" cols="174"  ></textarea>
 
   <input type="submit" value="Submit" class="submit">
   

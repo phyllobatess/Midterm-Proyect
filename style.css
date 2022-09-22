@@ -7,11 +7,16 @@ body {
   margin-right: 250px;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    font-family: "Courier New", Courier, monospace;
+/* @media only screen and (max-width: 600px) {
+  header div {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
-}
+  #services div {
+    flex-direction: column;
+  }
+} */
+
 #nav {
   display: flex;
 
@@ -28,11 +33,20 @@ body {
   list-style: none;
   width: 220px;
 }
-#nav li:first-child {
+.text-li {
+  text-decoration: none;
   color: #072ac8;
+  font-size: 20px;
+  padding-right: 30px;
+}
+.text-li1 {
+  text-decoration: none;
+  color: #6b708d;
+  font-size: 20px;
+  padding-right: 30px;
 }
 
-#nav div a {
+nav span a {
   background-color: #072ac8;
   color: white;
   list-style: none;
@@ -43,7 +57,7 @@ body {
   margin-bottom: 150px;
 }
 #header article h1 {
-  font-size: 80px;
+  font-size: 50px;
 }
 #header article p {
   font-size: 26px;
@@ -116,10 +130,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: ;
 }
 .tarjeta {
+  width: 32%;
   background-color: white;
-  height: 510px;
+  height: 480px;
   display: flex;
   flex-direction: column;
 }
@@ -138,15 +154,15 @@ body {
 }
 
 .tarjeta img {
-  height: 300px;
-  width: 420px;
+  height: 250px;
+  width: 100%;
 }
 
 .link-project {
   text-decoration: none;
   color: #072ac8;
   margin-left: 30px;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 /* SECTION 3 TESTIMONIAL */
@@ -241,7 +257,7 @@ body {
 }
 
 #services article h2 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -306,7 +322,7 @@ body {
   padding: 20px;
 }
 
-/* ESTILOS PROJECT PAGE */
+/* styles PROJECT PAGE */
 
 .style-h1 {
   font-size: 70px;
@@ -325,8 +341,8 @@ body {
   margin-bottom: 45px;
 }
 #simplify div img {
-  height: 976px;
-  width: 1410px;
+  height: 100%px;
+  width: 100%;
 }
 
 .text {
@@ -334,10 +350,10 @@ body {
   font-size: 20px;
 }
 
-/* SECTION CONTACT */
+/*  styles SECTION CONTACT */
 
 .placeholder1 {
-  width: 1375px;
+  width: 97%;
   background-color: #ededed;
   padding: 20px;
   border: 0;
@@ -346,16 +362,17 @@ body {
 
 .email1 {
   margin-top: 10px;
-  width: 642px;
+  width: 93%;
   background-color: #ededed;
   padding: 20px;
-  margin-right: 45px;
+  margin-right: 220px;
   border: 0;
 }
 
 .flex {
   margin-top: 20px;
   display: flex;
+  justify-content: space-between;
 }
 
 .text-contact {
@@ -367,6 +384,7 @@ body {
   margin-top: 10px;
   background-color: #ededed;
   border: 0;
+  width: 100%;
 }
 .submit {
   margin-top: 20px;
@@ -374,7 +392,8 @@ body {
   border: 0;
   border-radius: 0;
   background-color: #072acb;
-  width: 1415px;
+  width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
+  margin-bottom: 150px;
 }
