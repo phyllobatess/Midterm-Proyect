@@ -7,15 +7,8 @@ body {
   margin-right: 250px;
 }
 
-@media only screen and (max-width: 600px) {
-  header div {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  #services div {
-    flex-direction: column;
-  }
-}
+
+/* MEDIA SCREEN arriba*/
 
 #nav {
   display: flex;
@@ -130,7 +123,7 @@ nav span a {
   margin-top: 150px;
 }
 
-#projects div {
+#project {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -399,5 +392,108 @@ nav span a {
   width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-bottom: 150px;
+  margin-bottom: 110px;
+}
+
+
+@media only screen and (max-width: 991px) {
+  header {
+    display: block;
+  }
+  html.w-mod-touch * {
+    background-attachment: scroll !important;
+  }
+  .container-hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .hero-content {
+    display: flex;
+    max-width: 700px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    align-self: center;
+  }
+
+  html.w-mod-touch * {
+    background-attachment: scroll !important;
+  }
+
+  .heading-2 {
+    text-align: center;
+    margin-right: 30px;
+    color: #292e47;
+  }
+  .container-img .img2 {
+    margin-top: 40px;
+    position: relative;
+    width: auto;
+    
+  }
+
+  .container-img .img1 {
+    display: none;
+  }
+  
+
+  .container-img .img3 {
+    display: none;
+  }
+
+  #client {
+    gap:50px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  #project {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .tarjeta{
+    width: auto;
+  }
+  #testimonial{
+    align-items: center;
+  }
+
+  #services div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #services div article {
+    margin-bottom: 15px;
+  }
+  #footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .img-face{
+    display: none;
+  }
+
+  .text1{
+    text-align: center;
+  }
+
 }
