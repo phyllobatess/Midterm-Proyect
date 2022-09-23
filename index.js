@@ -1,6 +1,5 @@
-
 // al final del URL añadimos ?_limit=3  para que solo obtenga 3 post
-const web = "https://jsonplaceholder.typicode.com/posts?_limit=3"; 
+const web = "https://jsonplaceholder.typicode.com/posts?_limit=3";
 
 function link() {
   fetch(web)
@@ -11,7 +10,7 @@ function link() {
         infoApi += ` 
         <article class="tarjeta">
           <div>
-          <img src="./Información de Proyecto/projects-section/${post.id}.jpg" 
+          <img src="./imgs/projects-section/${post.id}.jpg" 
           alt="section ${post.id}">
           </div>
 
@@ -33,5 +32,3 @@ function link() {
     .catch((error) => console.log(error));
 }
 link();
-
-
