@@ -15,7 +15,6 @@ body {
   #services div {
     flex-direction: column;
   }
-
 }
 
 #nav {
@@ -25,6 +24,10 @@ body {
   height: 30px;
   justify-content: space-between;
   margin-bottom: 100px;
+}
+
+#nav a {
+  cursor: pointer;
 }
 
 .nav-bar-ul {
@@ -131,7 +134,7 @@ nav span a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width:100% ;
+  width: 100%;
 }
 .tarjeta {
   width: 32%;
